@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(..//img/Pfsm81XkEK7p3LcoBbG4Yw_store_banner_image.jpeg);
+    background-size: cover;
+}
+.form-box{
+    height: 450px;
+    width: 360px;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(82, 89, 182, 0.2);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 2px solid #fff;
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+.input-group{
+    position: relative;
+    
+}
+.main-title{
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(98%);
+    padding: 12px 0;
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+}
+.main-title h1{
+    font-size: 17px;
+}
+.text{
+    font-size: 12px;
+}
+.main-input{
+   margin: 50px 32px;
+}
+.text{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+   
+}
+.input-boxs{
+    padding: 12px 40px 12px 18px;
+    width: 100%;
+    margin-top: 58px;
+    margin-bottom: 22px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    &:focus{
+        outline: none;
+        color: #fff;
+    }
+}
+.input-box{
+    padding: 12px 40px 12px 18px;
+    width: 100%;
+    margin-bottom: 22px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    &:focus{
+        outline: none;
+        color: #fff;
+    }
+}
+::placeholder{
+    color: #fff;
+    font-family: 'roboto';
+}
+
+.left-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.login-box{
+    font-size: 14px;
+    margin-top: 51px;
+    padding: 12px 102px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'roboto';
+    letter-spacing: 2px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    width: 100%;
+    &:hover{
+        background-color: #f9c1ce   ;
+        color: #fff;
+        transition: .4s;
+    }
+}
+.sign-box{
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 12px 102px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'roboto';
+    letter-spacing: 2px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    width: 100%;
+    &:hover{
+        background-color: #f9c1ce;
+        color: #fff;
+        transition: .4s;
+    }
+}
+.list-style{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+#chk2{
+    opacity: 0;
+}
+.chk-box{
+    display: inline-block;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    left: 7px;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.ic{
+    position: absolute;
+    top: 3.5px;
+    left: 3.5px;
+    opacity: 0;
+    font-size: 12px;
+    color: #000;
+    transform: scale(0);
+    transition: .4s;
+}
+#chk2:checked ~ .chk-box > .ic{
+    opacity: 1;
+    transform: scale(1);
+}
+.chk-text{
+    padding-left: 8px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: -2%;
+    left: 27%;
+    transform: translate(-50%);
+    
+}
+.forget-pass a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    position: absolute;
+    top: -2%;
+    right: 3%;
+    &:hover{
+        text-decoration: underline;
+        transition: .5s;
+    }
+}
+.icon{
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    font-size: 13px;
+    color: #fff;
+}
+.icons{
+    position: absolute;
+    top: 73px;
+    right: 21px;
+    font-size: 14px;
+    color: #fff;
+}
+.last-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.last-sec h1{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.last-sec a{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 5px;
+    &:hover{
+        text-decoration: underline;
+        transition: .5s;
+    }
+}
+
+
+/* register form */
